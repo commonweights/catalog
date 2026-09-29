@@ -1,0 +1,21 @@
+{
+  "schema": "commonweights/reflog/v0",
+  "name": "MiniMaxAI/MiniMax-M2.7",
+  "records": [
+    {
+      "schema": "commonweights/ref/v0",
+      "name": "MiniMaxAI/MiniMax-M2.7",
+      "ref": "main",
+      "revision": "d494266a4affc0d2995ba1fa35c8481cbd84294b",
+      "root": "btmh:1220cc4ec9092c065247f608fbe7adef7874fb5399a31a80529b5034563948ad46c1",
+      "previous": null,
+      "seq": 1,
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:MiniMaxAI/MiniMax-M2.7 main = d494266a4affc0d2995ba1fa35c8481cbd84294b as served by the hub at 2026-09-29T02:43:14Z",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "MUFU5afsIlUcv6rc8/p9D2zPY+SJSFz3naPWF9JgsnfakZde+CAIU82y4lzNyIeiZyhOZgA+VZfrDZ9HkOF0Dg=="
+    }
+  ]
+}

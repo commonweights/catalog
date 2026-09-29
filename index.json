@@ -1,0 +1,601 @@
+{
+  "schema": "commonweights/catalog/v1",
+  "node": null,
+  "models": [
+    {
+      "name": "MiniMaxAI/MiniMax-H3",
+      "root": "btmh:1220d635e680928889abd0b48b4ba0bebcbd1e974af89c49a9cfb9df7daabf309696",
+      "revision": "42ed227ee7df40d41602854ae760620d6eb651fe",
+      "license": "other",
+      "size": 498474749480,
+      "files": 280,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:MiniMaxAI/MiniMax-H3@42ed227ee7df40d41602854ae760620d6eb651fe: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/MiniMaxAI/MiniMax-H3/42ed227ee7df40d41602854ae760620d6eb651fe.json",
+      "torrent": "manifests/MiniMaxAI/MiniMax-H3/42ed227ee7df40d41602854ae760620d6eb651fe.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/MiniMaxAI/MiniMax-H3.json"
+    },
+    {
+      "name": "MiniMaxAI/MiniMax-M2.7",
+      "root": "btmh:1220cc4ec9092c065247f608fbe7adef7874fb5399a31a80529b5034563948ad46c1",
+      "revision": "d494266a4affc0d2995ba1fa35c8481cbd84294b",
+      "license": "other",
+      "size": 230169537355,
+      "files": 151,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:MiniMaxAI/MiniMax-M2.7@d494266a4affc0d2995ba1fa35c8481cbd84294b: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/MiniMaxAI/MiniMax-M2.7/d494266a4affc0d2995ba1fa35c8481cbd84294b.json",
+      "torrent": "manifests/MiniMaxAI/MiniMax-M2.7/d494266a4affc0d2995ba1fa35c8481cbd84294b.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/MiniMaxAI/MiniMax-M2.7.json"
+    },
+    {
+      "name": "MiniMaxAI/MiniMax-M3",
+      "root": "btmh:12207a4ff64fadca86dc2e72b6cbb607579bfd1c131431154abbdeb999f7ef9ef7aa",
+      "revision": "f0e1c1e04d40177e4673a22097036854f536e9c0",
+      "license": "other",
+      "size": 854200504173,
+      "files": 82,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:MiniMaxAI/MiniMax-M3@f0e1c1e04d40177e4673a22097036854f536e9c0: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0.json",
+      "torrent": "manifests/MiniMaxAI/MiniMax-M3/f0e1c1e04d40177e4673a22097036854f536e9c0.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/MiniMaxAI/MiniMax-M3.json"
+    },
+    {
+      "name": "Qwen/Qwen3-0.6B",
+      "root": "btmh:1220dee6aae97492e23eeea9c31831f89395e3710650ed6b143a15cf35ddd367f02a",
+      "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+      "license": "apache-2.0",
+      "size": 1519209243,
+      "files": 10,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:Qwen/Qwen3-0.6B@c1899de289a04d12100db370d81485cdf75e47ca: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/Qwen/Qwen3-0.6B/c1899de289a04d12100db370d81485cdf75e47ca.json",
+      "torrent": "manifests/Qwen/Qwen3-0.6B/c1899de289a04d12100db370d81485cdf75e47ca.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/Qwen/Qwen3-0.6B.json"
+    },
+    {
+      "name": "Qwen/Qwen3-8B",
+      "root": "btmh:122083d2f9c58e2809ca424e9b31677a473c536c89f924ea7aa3f4e54f7504da5f84",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "license": "apache-2.0",
+      "size": 16397461266,
+      "files": 15,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:Qwen/Qwen3-8B@b968826d9c46dd6066d109eabc6255188de91218: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218.json",
+      "torrent": "manifests/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/Qwen/Qwen3-8B.json"
+    },
+    {
+      "name": "Qwen/Qwen3.5-9B",
+      "root": "btmh:12207570e826b0b06ce55a9ece27ff5fa4438005992ce602fadb9681ec29ad735808",
+      "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+      "license": "apache-2.0",
+      "size": 19329393661,
+      "files": 16,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:Qwen/Qwen3.5-9B@c202236235762e1c871ad0ccb60c8ee5ba337b9a: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a.json",
+      "torrent": "manifests/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/Qwen/Qwen3.5-9B.json"
+    },
+    {
+      "name": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "root": "btmh:1220c51ae2725ba78997aa4999241ec62ef82987d797313f47a3e4b2f230c75f1b3d",
+      "revision": "95a723d08a9490559dae23d0cff1d9466213d989",
+      "license": "apache-2.0",
+      "size": 37493015668,
+      "files": 56,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:Qwen/Qwen3.6-35B-A3B-FP8@95a723d08a9490559dae23d0cff1d9466213d989: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/Qwen/Qwen3.6-35B-A3B-FP8/95a723d08a9490559dae23d0cff1d9466213d989.json",
+      "torrent": "manifests/Qwen/Qwen3.6-35B-A3B-FP8/95a723d08a9490559dae23d0cff1d9466213d989.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/Qwen/Qwen3.6-35B-A3B-FP8.json"
+    },
+    {
+      "name": "Qwen/Qwen3.8-27B",
+      "root": "btmh:1220a70d85cabd29d8da22bb363c3ed9ec5a355928661072ecdb1b57e5e382bc7890",
+      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "license": "apache-2.0",
+      "size": 55586114863,
+      "files": 32,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:Qwen/Qwen3.8-27B@1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/Qwen/Qwen3.8-27B/1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0.json",
+      "torrent": "manifests/Qwen/Qwen3.8-27B/1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/Qwen/Qwen3.8-27B.json"
+    },
+    {
+      "name": "Qwen/Qwen3.8-27B-FP8",
+      "root": "btmh:12201ca42a90b6cf87c8e19eb6f70c2fe6d758d5d27c8905249f7c7c9305595f16bd",
+      "revision": "017b9c7af6b5689d5dd426a76e0bc077eb5ca20a",
+      "license": "apache-2.0",
+      "size": 30890049597,
+      "files": 81,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:Qwen/Qwen3.8-27B-FP8@017b9c7af6b5689d5dd426a76e0bc077eb5ca20a: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/Qwen/Qwen3.8-27B-FP8/017b9c7af6b5689d5dd426a76e0bc077eb5ca20a.json",
+      "torrent": "manifests/Qwen/Qwen3.8-27B-FP8/017b9c7af6b5689d5dd426a76e0bc077eb5ca20a.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/Qwen/Qwen3.8-27B-FP8.json"
+    },
+    {
+      "name": "Qwen/Qwen3.8-Flash-Next",
+      "root": "btmh:12200f1626e98ef2cd8d930ac9f85c6880d1e33f4d23cb00ee491015f5c6bc859a3a",
+      "revision": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
+      "license": "other",
+      "size": 360023351514,
+      "files": 144,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:Qwen/Qwen3.8-Flash-Next@de4b8e4d43b917e7706784d8bb445c9af86a3540: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/Qwen/Qwen3.8-Flash-Next/de4b8e4d43b917e7706784d8bb445c9af86a3540.json",
+      "torrent": "manifests/Qwen/Qwen3.8-Flash-Next/de4b8e4d43b917e7706784d8bb445c9af86a3540.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/Qwen/Qwen3.8-Flash-Next.json"
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V3.2",
+      "root": "btmh:1220adff6eeffab69ad9772e75fe91de442ba465806aa63db671ea94b1127e807cc8",
+      "revision": "a7e62ac04ecb2c0a54d736dc46601c5606cf10a6",
+      "license": "mit",
+      "size": 689508104890,
+      "files": 192,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:deepseek-ai/DeepSeek-V3.2@a7e62ac04ecb2c0a54d736dc46601c5606cf10a6: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/deepseek-ai/DeepSeek-V3.2/a7e62ac04ecb2c0a54d736dc46601c5606cf10a6.json",
+      "torrent": "manifests/deepseek-ai/DeepSeek-V3.2/a7e62ac04ecb2c0a54d736dc46601c5606cf10a6.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/deepseek-ai/DeepSeek-V3.2.json"
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "root": "btmh:1220c5091eb2104c4e794f91050f51e4cba957476d61074f6680aa3ff7b03000df0a",
+      "revision": "7872f01b1d1fe23eabc4c98b48bffcef5a386062",
+      "license": "mit",
+      "size": 166898661074,
+      "files": 74,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:deepseek-ai/DeepSeek-V4-Flash-0731@7872f01b1d1fe23eabc4c98b48bffcef5a386062: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/deepseek-ai/DeepSeek-V4-Flash-0731/7872f01b1d1fe23eabc4c98b48bffcef5a386062.json",
+      "torrent": "manifests/deepseek-ai/DeepSeek-V4-Flash-0731/7872f01b1d1fe23eabc4c98b48bffcef5a386062.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/deepseek-ai/DeepSeek-V4-Flash-0731.json"
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "root": "btmh:12209c74a1e6b666b3ec5260c342ef4fc1001143341615b5f8022ea6f09eaf37d815",
+      "revision": "72e1d3230f6c080a530b0a1d46f8eb4602340597",
+      "license": "mit",
+      "size": 892762497859,
+      "files": 92,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:deepseek-ai/DeepSeek-V4-Pro-0813@72e1d3230f6c080a530b0a1d46f8eb4602340597: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/deepseek-ai/DeepSeek-V4-Pro-0813/72e1d3230f6c080a530b0a1d46f8eb4602340597.json",
+      "torrent": "manifests/deepseek-ai/DeepSeek-V4-Pro-0813/72e1d3230f6c080a530b0a1d46f8eb4602340597.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/deepseek-ai/DeepSeek-V4-Pro-0813.json"
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "root": "btmh:1220913fe91ffcc1f4abb9c046dfb4fb5f74731cdf587ad4ea3b0a3eee19000f1f4c",
+      "revision": "dba1be0a40aa45a94ad051997016db3960a90277",
+      "license": "mit",
+      "size": 510313353565,
+      "files": 88,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:deepseek-ai/DeepSeek-V4.1-Flash@dba1be0a40aa45a94ad051997016db3960a90277: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/deepseek-ai/DeepSeek-V4.1-Flash/dba1be0a40aa45a94ad051997016db3960a90277.json",
+      "torrent": "manifests/deepseek-ai/DeepSeek-V4.1-Flash/dba1be0a40aa45a94ad051997016db3960a90277.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/deepseek-ai/DeepSeek-V4.1-Flash.json"
+    },
+    {
+      "name": "mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "root": "btmh:1220918a90a10a3a595ddf06b5a439e01a3c97dceff0b9b7c9b57fdf3bf283fc50a5",
+      "revision": "55c5b41e98c2dbd21b0c8afffc540dcfc9eb5128",
+      "license": "apache-2.0",
+      "size": 51620249351,
+      "files": 22,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:mistralai/Devstral-Small-2-24B-Instruct-2512@55c5b41e98c2dbd21b0c8afffc540dcfc9eb5128: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/mistralai/Devstral-Small-2-24B-Instruct-2512/55c5b41e98c2dbd21b0c8afffc540dcfc9eb5128.json",
+      "torrent": "manifests/mistralai/Devstral-Small-2-24B-Instruct-2512/55c5b41e98c2dbd21b0c8afffc540dcfc9eb5128.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/mistralai/Devstral-Small-2-24B-Instruct-2512.json"
+    },
+    {
+      "name": "mistralai/Ministral-3-14B-Instruct-2512",
+      "root": "btmh:1220edd52f8d4e6763ab3b39f74f29c28ecc625329f46038592950820417b6db913c",
+      "revision": "29439f81c2be264d8d393273f99e7db9c0961120",
+      "license": "apache-2.0",
+      "size": 31487447241,
+      "files": 17,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:mistralai/Ministral-3-14B-Instruct-2512@29439f81c2be264d8d393273f99e7db9c0961120: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/mistralai/Ministral-3-14B-Instruct-2512/29439f81c2be264d8d393273f99e7db9c0961120.json",
+      "torrent": "manifests/mistralai/Ministral-3-14B-Instruct-2512/29439f81c2be264d8d393273f99e7db9c0961120.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/mistralai/Ministral-3-14B-Instruct-2512.json"
+    },
+    {
+      "name": "mistralai/Mistral-7B-Instruct-v0.3",
+      "root": "btmh:1220fb069ba568e93fa9a9fa9280bc02cd2dc10a8c3fe424ff1963eaf0b7f5b407b7",
+      "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "license": "apache-2.0",
+      "size": 28995471365,
+      "files": 15,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:mistralai/Mistral-7B-Instruct-v0.3@c170c708c41dac9275d15a8fff4eca08d52bab71: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/mistralai/Mistral-7B-Instruct-v0.3/c170c708c41dac9275d15a8fff4eca08d52bab71.json",
+      "torrent": "manifests/mistralai/Mistral-7B-Instruct-v0.3/c170c708c41dac9275d15a8fff4eca08d52bab71.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/mistralai/Mistral-7B-Instruct-v0.3.json"
+    },
+    {
+      "name": "mistralai/Mistral-Large-3-675B-Instruct-2512",
+      "root": "btmh:1220081e6a2e7121c942f08ed6acda861958d6b92f9ddd7b92354d5005cd93eb159f",
+      "revision": "383ffea2c7d60dfd44ca960e8e691709d4fdb9cd",
+      "license": "apache-2.0",
+      "size": 681542908857,
+      "files": 283,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:mistralai/Mistral-Large-3-675B-Instruct-2512@383ffea2c7d60dfd44ca960e8e691709d4fdb9cd: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/mistralai/Mistral-Large-3-675B-Instruct-2512/383ffea2c7d60dfd44ca960e8e691709d4fdb9cd.json",
+      "torrent": "manifests/mistralai/Mistral-Large-3-675B-Instruct-2512/383ffea2c7d60dfd44ca960e8e691709d4fdb9cd.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/mistralai/Mistral-Large-3-675B-Instruct-2512.json"
+    },
+    {
+      "name": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+      "root": "btmh:12205c40e462e94a26603dda1089f035e1b7d4f871fcf2b72d863b1c9379fab0e8c9",
+      "revision": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+      "license": "apache-2.0",
+      "size": 96065082042,
+      "files": 19,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:mistralai/Mistral-Small-3.2-24B-Instruct-2506@95a6d26c4bfb886c58daf9d3f7332c857cb27b43: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/mistralai/Mistral-Small-3.2-24B-Instruct-2506/95a6d26c4bfb886c58daf9d3f7332c857cb27b43.json",
+      "torrent": "manifests/mistralai/Mistral-Small-3.2-24B-Instruct-2506/95a6d26c4bfb886c58daf9d3f7332c857cb27b43.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/mistralai/Mistral-Small-3.2-24B-Instruct-2506.json"
+    },
+    {
+      "name": "mistralai/Mistral-Small-4-119B-2603",
+      "root": "btmh:1220b9ef635d3ff62d7552bec742ed06d6d5a296c5a1339477086412c47310065596",
+      "revision": "a11f36bebf709121056b1dbcc943d1c6afbe494d",
+      "license": "apache-2.0",
+      "size": 241889510745,
+      "files": 28,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:mistralai/Mistral-Small-4-119B-2603@a11f36bebf709121056b1dbcc943d1c6afbe494d: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/mistralai/Mistral-Small-4-119B-2603/a11f36bebf709121056b1dbcc943d1c6afbe494d.json",
+      "torrent": "manifests/mistralai/Mistral-Small-4-119B-2603/a11f36bebf709121056b1dbcc943d1c6afbe494d.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/mistralai/Mistral-Small-4-119B-2603.json"
+    },
+    {
+      "name": "moonshotai/Kimi-K2.6",
+      "root": "btmh:1220c10e64f13945552cab89ba1b54f4efc923a893d23f9470d162294fe072b99011",
+      "revision": "7eb5002f6aadc958aed6a9177b7ed26bb94011bb",
+      "license": "other",
+      "size": 595204999341,
+      "files": 96,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:moonshotai/Kimi-K2.6@7eb5002f6aadc958aed6a9177b7ed26bb94011bb: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/moonshotai/Kimi-K2.6/7eb5002f6aadc958aed6a9177b7ed26bb94011bb.json",
+      "torrent": "manifests/moonshotai/Kimi-K2.6/7eb5002f6aadc958aed6a9177b7ed26bb94011bb.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/moonshotai/Kimi-K2.6.json"
+    },
+    {
+      "name": "moonshotai/Kimi-K3",
+      "root": "btmh:12203c744afeaac90d8855d791cf05fca362d14d117d67f060aa71bbe992618d7256",
+      "revision": "f831ab66814297da540d832a5235f8e904f29d06",
+      "license": "other",
+      "size": 1560998988078,
+      "files": 119,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:moonshotai/Kimi-K3@f831ab66814297da540d832a5235f8e904f29d06: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06.json",
+      "torrent": "manifests/moonshotai/Kimi-K3/f831ab66814297da540d832a5235f8e904f29d06.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/moonshotai/Kimi-K3.json"
+    },
+    {
+      "name": "openai/gpt-oss-120b",
+      "root": "btmh:122045a561e6b0c945f13950fbc8188809d55b43576698bdc914f2b81483ac1f929e",
+      "revision": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+      "license": "apache-2.0",
+      "size": 195764040609,
+      "files": 37,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:openai/gpt-oss-120b@b5c939de8f754692c1647ca79fbf85e8c1e70f8a: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/openai/gpt-oss-120b/b5c939de8f754692c1647ca79fbf85e8c1e70f8a.json",
+      "torrent": "manifests/openai/gpt-oss-120b/b5c939de8f754692c1647ca79fbf85e8c1e70f8a.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/openai/gpt-oss-120b.json"
+    },
+    {
+      "name": "openai/gpt-oss-20b",
+      "root": "btmh:1220a6c023c32af839425ea6bd5b2c691bc3e4553dbb4e35eb0decb856ad31eb8f88",
+      "revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+      "license": "apache-2.0",
+      "size": 41301465516,
+      "files": 18,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:openai/gpt-oss-20b@6cee5e81ee83917806bbde320786a8fb61efebee: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/openai/gpt-oss-20b/6cee5e81ee83917806bbde320786a8fb61efebee.json",
+      "torrent": "manifests/openai/gpt-oss-20b/6cee5e81ee83917806bbde320786a8fb61efebee.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/openai/gpt-oss-20b.json"
+    },
+    {
+      "name": "zai-org/GLM-4.7-Flash",
+      "root": "btmh:12202b324031ea3d898919a46da4e95b3d2ae7e920fc7bd3a6f6308a023bf8ab0f82",
+      "revision": "7dd20894a642a0aa287e9827cb1a1f7f91386b67",
+      "license": "mit",
+      "size": 62465286500,
+      "files": 58,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:zai-org/GLM-4.7-Flash@7dd20894a642a0aa287e9827cb1a1f7f91386b67: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/zai-org/GLM-4.7-Flash/7dd20894a642a0aa287e9827cb1a1f7f91386b67.json",
+      "torrent": "manifests/zai-org/GLM-4.7-Flash/7dd20894a642a0aa287e9827cb1a1f7f91386b67.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/zai-org/GLM-4.7-Flash.json"
+    },
+    {
+      "name": "zai-org/GLM-5.3",
+      "root": "btmh:1220eccc834825ed96b57fa3e6de909324573d2c8f3daed3e6528a8b2bc905069da1",
+      "revision": "aca966e4e02791568aa6a4ced368624b3d897f42",
+      "license": "other",
+      "size": 755663689206,
+      "files": 155,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:zai-org/GLM-5.3@aca966e4e02791568aa6a4ced368624b3d897f42: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/zai-org/GLM-5.3/aca966e4e02791568aa6a4ced368624b3d897f42.json",
+      "torrent": "manifests/zai-org/GLM-5.3/aca966e4e02791568aa6a4ced368624b3d897f42.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/zai-org/GLM-5.3.json"
+    },
+    {
+      "name": "zai-org/GLM-5.3-Flash",
+      "root": "btmh:1220614cf78d55b401a0fd24f80222c19af00e8fa0ca9bf7a8dd430974f35d15f701",
+      "revision": "eb9eb208eb0d988989d07a6a12d0fdeb5f52574a",
+      "license": "mit",
+      "size": 328366173469,
+      "files": 73,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:zai-org/GLM-5.3-Flash@eb9eb208eb0d988989d07a6a12d0fdeb5f52574a: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/zai-org/GLM-5.3-Flash/eb9eb208eb0d988989d07a6a12d0fdeb5f52574a.json",
+      "torrent": "manifests/zai-org/GLM-5.3-Flash/eb9eb208eb0d988989d07a6a12d0fdeb5f52574a.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/zai-org/GLM-5.3-Flash.json"
+    }
+  ],
+  "denylists": []
+}

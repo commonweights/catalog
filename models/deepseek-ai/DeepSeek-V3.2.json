@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "deepseek-ai/DeepSeek-V3.2",
+  "reflog": "refs/deepseek-ai/DeepSeek-V3.2.json",
+  "revisions": [
+    {
+      "name": "deepseek-ai/DeepSeek-V3.2",
+      "root": "btmh:1220adff6eeffab69ad9772e75fe91de442ba465806aa63db671ea94b1127e807cc8",
+      "revision": "a7e62ac04ecb2c0a54d736dc46601c5606cf10a6",
+      "license": "mit",
+      "size": 689508104890,
+      "files": 192,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:deepseek-ai/DeepSeek-V3.2@a7e62ac04ecb2c0a54d736dc46601c5606cf10a6: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/deepseek-ai/DeepSeek-V3.2/a7e62ac04ecb2c0a54d736dc46601c5606cf10a6.json",
+      "torrent": "manifests/deepseek-ai/DeepSeek-V3.2/a7e62ac04ecb2c0a54d736dc46601c5606cf10a6.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/deepseek-ai/DeepSeek-V3.2.json"
+    }
+  ]
+}

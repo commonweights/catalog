@@ -1,0 +1,167 @@
+{
+  "schema": "commonweights/manifest/v0",
+  "name": "mistralai/Devstral-Small-2-24B-Instruct-2512",
+  "revision": "55c5b41e98c2dbd21b0c8afffc540dcfc9eb5128",
+  "license": "apache-2.0",
+  "root": "btmh:1220918a90a10a3a595ddf06b5a439e01a3c97dceff0b9b7c9b57fdf3bf283fc50a5",
+  "size": 51620249351,
+  "piece_length": 16777216,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 1618,
+      "sha256": "1e11e8e6b9eb852a71eadd8fe191d4b9e329eb81308602dec19ab16da7e172b2",
+      "pieces_root": "1e11e8e6b9eb852a71eadd8fe191d4b9e329eb81308602dec19ab16da7e172b2"
+    },
+    {
+      "path": "CHAT_SYSTEM_PROMPT.txt",
+      "size": 2367,
+      "sha256": "35e9942fc2a95dca58e4ce6484515f16a798f718aad0ce0b2e83ba0887f53b29",
+      "pieces_root": "35e9942fc2a95dca58e4ce6484515f16a798f718aad0ce0b2e83ba0887f53b29"
+    },
+    {
+      "path": "README.md",
+      "size": 61545,
+      "sha256": "e1aa7a24bc4845a11cf8defacd723a67fe5cc551ca9311e0276933d9176f55d7",
+      "pieces_root": "6dc4081002c38304dd9143f10708e8d055481799e01f10edb61a0fac72bb5dc4"
+    },
+    {
+      "path": "VIBE_SYSTEM_PROMPT.txt",
+      "size": 1809,
+      "sha256": "c55c3592065d1786b75e82fc0fe05ac4c4940b473e77799c8abb75e439a15556",
+      "pieces_root": "c55c3592065d1786b75e82fc0fe05ac4c4940b473e77799c8abb75e439a15556"
+    },
+    {
+      "path": "chat_template.jinja",
+      "size": 11362,
+      "sha256": "a0c0ed8a45c2c75c85fd756316a10419b90eb4f3dbe64d00f5c0b8ad4de5209a",
+      "pieces_root": "a0c0ed8a45c2c75c85fd756316a10419b90eb4f3dbe64d00f5c0b8ad4de5209a"
+    },
+    {
+      "path": "config.json",
+      "size": 1822,
+      "sha256": "8d570ae877badd9ff5442afdc726385aba07f5757ba875a7491bde9549457e72",
+      "pieces_root": "8d570ae877badd9ff5442afdc726385aba07f5757ba875a7491bde9549457e72"
+    },
+    {
+      "path": "consolidated-00001-of-00002.safetensors",
+      "size": 19839869982,
+      "sha256": "dfa96c3ccb824ac308eeeaa86fd1ce01aca4e3311e1aaa27a498ec3b7302e165",
+      "pieces_root": "6bc27a168d4a3df2de265af1d648eb998fbb4dbd82d611688977dc15e7096269"
+    },
+    {
+      "path": "consolidated-00002-of-00002.safetensors",
+      "size": 5953165906,
+      "sha256": "b783163b5ee6fb9595fde29d6072e81be8fcc24ea576d09ecc3dc7611ababb97",
+      "pieces_root": "b4424047e8a910046d390d26bacf018c9a81ee5812e5da09515329ae036ac60c"
+    },
+    {
+      "path": "consolidated.safetensors.index.json",
+      "size": 101411,
+      "sha256": "ae098214199fb7fe4948768c0a640f0cea32d1effb827c09b0ae1314b02ef714",
+      "pieces_root": "36f0e6601f89ef249e3cb18c69d0b27d9cf9b7fe0af2275c40fa94cbb5450836"
+    },
+    {
+      "path": "generation_config.json",
+      "size": 175,
+      "sha256": "c5ee59a086c5504838db2a66cafdf04d10aac11cb021dd4e92a15946645c2dda",
+      "pieces_root": "c5ee59a086c5504838db2a66cafdf04d10aac11cb021dd4e92a15946645c2dda"
+    },
+    {
+      "path": "model-00001-of-00006.safetensors",
+      "size": 4907440626,
+      "sha256": "380035da60c7cc474cb7358888a1c50c70679bb3fb7f70870c2400f93ac51d70",
+      "pieces_root": "0121bdba326991319094543aca70189878239ced0c2c07e3d5065d494b7c5989"
+    },
+    {
+      "path": "model-00002-of-00006.safetensors",
+      "size": 4996664584,
+      "sha256": "2caed6d3fb5af9c97b8c70e1424a9e517454e01451332834fba4fdb4e7a18280",
+      "pieces_root": "59605fb7e8db82405c95cdad78f79b5245669c157ad4697caa24a6e682c453c8"
+    },
+    {
+      "path": "model-00003-of-00006.safetensors",
+      "size": 4980946432,
+      "sha256": "e2bab376f49baa1da58c0a737f688cbfe185dc6a994fa2870d62b7c8b36e3360",
+      "pieces_root": "2d9325adeb29c6f488aa48f11d63358df89d82559ba88ec9ddd1d14e46ba4a13"
+    },
+    {
+      "path": "model-00004-of-00006.safetensors",
+      "size": 4980946416,
+      "sha256": "63c422f7a5c1460967068c0ceff65eb31f136f64872e281841313e8c669e7c50",
+      "pieces_root": "99abfda27b94d5dd011ed8da3ee0551d5ae99e53a48896593939233254c32737"
+    },
+    {
+      "path": "model-00005-of-00006.safetensors",
+      "size": 4996675032,
+      "sha256": "ec99fd6a7faf35b43e38e60f531e9ee5d67c4292773d71246038b9eb508e373a",
+      "pieces_root": "855c014cedb4e2e8aa4e9eceb72aab4adf0c64f5ece63bfe9eb5a92623684ce9"
+    },
+    {
+      "path": "model-00006-of-00006.safetensors",
+      "size": 930386318,
+      "sha256": "8efdf4d1c2425a2a7956bf43ae343f44a825a90a87e341ff02f708da2923a0b1",
+      "pieces_root": "9cbfa113e1ba109adb0f4d59188a8d0dbead35ab4df3ecaf205eda47c4b54d2a"
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size": 117404,
+      "sha256": "f6a3dddc47d001996444ad67e30c5742980fe2c3cff63cc1e28c57c4d24a2c0e",
+      "pieces_root": "a519aec03263a002215457fe2d87668ee141649d846a9fc4615c5243261e0ae4"
+    },
+    {
+      "path": "params.json",
+      "size": 1185,
+      "sha256": "1618da0d6f897e074ff7ec4b1047b5d2e8a1a4aa1fab41e26fc88f3b5b94d2aa",
+      "pieces_root": "1618da0d6f897e074ff7ec4b1047b5d2e8a1a4aa1fab41e26fc88f3b5b94d2aa"
+    },
+    {
+      "path": "processor_config.json",
+      "size": 976,
+      "sha256": "ece2373c2ae391bce18785a1810543bc6173a1f28b6767cffab2c35dbea5f002",
+      "pieces_root": "ece2373c2ae391bce18785a1810543bc6173a1f28b6767cffab2c35dbea5f002"
+    },
+    {
+      "path": "tekken.json",
+      "size": 16753784,
+      "sha256": "600bb27946565481ecf51ba8aee252e49b9a68507866080ac9c30185bb312843",
+      "pieces_root": "dbabb13126b801cb36c678a8a8b69ddc82593e6c25ea8d5328ad715812988472"
+    },
+    {
+      "path": "tokenizer.json",
+      "size": 17077420,
+      "sha256": "99cf274236c60277fcfad861a5a1007518687ad06ba8938760f50b55ffa0b1ef",
+      "pieces_root": "8a341f2150a8ba86469e3a6f29e6aaccece5e20b409f384a80442b118467542f"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size": 21177,
+      "sha256": "4a05af595aa11c3436d3b68a616219ae99b303426f708a12b31bc9ce32530728",
+      "pieces_root": "b7876eb720dc3827f3aa3b2079ce27234ad0e81ee9dea9bd221416dd675f0c3c"
+    }
+  ],
+  "webseeds": [
+    "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512/resolve/"
+  ],
+  "lineage": {
+    "base": null,
+    "derived_from": []
+  },
+  "source": {
+    "kind": "huggingface",
+    "repo": "mistralai/Devstral-Small-2-24B-Instruct-2512",
+    "revision": "55c5b41e98c2dbd21b0c8afffc540dcfc9eb5128",
+    "fetched": "2026-09-29T01:27:21Z"
+  },
+  "created": "2026-09-29T01:27:21Z",
+  "attestations": [
+    {
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:mistralai/Devstral-Small-2-24B-Instruct-2512@55c5b41e98c2dbd21b0c8afffc540dcfc9eb5128: the bytes the hub served for this commit on 2026-09-29",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "ti0W0k7X5MHv/IFVxdJ/2YmFr/zPogCd9i3VEL5gJOxienavV7bGEAgPThAw0NJC20DVpc+u8ni27nVZXX5ZCQ=="
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schema": "commonweights/manifest/v0",
+  "name": "mistralai/Mistral-7B-Instruct-v0.3",
+  "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+  "license": "apache-2.0",
+  "root": "btmh:1220fb069ba568e93fa9a9fa9280bc02cd2dc10a8c3fe424ff1963eaf0b7f5b407b7",
+  "size": 28995471365,
+  "piece_length": 16777216,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 1519,
+      "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+      "pieces_root": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+    },
+    {
+      "path": "README.md",
+      "size": 7893,
+      "sha256": "3166974023134d972368b585d730fa5f70100873684f90a10a773b20e80b30ba",
+      "pieces_root": "3166974023134d972368b585d730fa5f70100873684f90a10a773b20e80b30ba"
+    },
+    {
+      "path": "config.json",
+      "size": 601,
+      "sha256": "affafc6478ec0fd07a32f0ca57aa2fc57743f4d17d6730f86a96ac24d1507f99",
+      "pieces_root": "affafc6478ec0fd07a32f0ca57aa2fc57743f4d17d6730f86a96ac24d1507f99"
+    },
+    {
+      "path": "consolidated.safetensors",
+      "size": 14496078512,
+      "sha256": "76d5729be995fb6510c7f103c5b8825d3d82f8126ac949db6be367a638694d1f",
+      "pieces_root": "5e8873d364fad1d240bc57a108b9a352b4f68bd505a19ba4cc70b624de0492fa"
+    },
+    {
+      "path": "generation_config.json",
+      "size": 116,
+      "sha256": "b4669f1b8f4185324bd9b12a69e85a1ad2289bc48111ef739cfaaea3bba6b0a9",
+      "pieces_root": "b4669f1b8f4185324bd9b12a69e85a1ad2289bc48111ef739cfaaea3bba6b0a9"
+    },
+    {
+      "path": "model-00001-of-00003.safetensors",
+      "size": 4949453792,
+      "sha256": "ce6fb6f6f4d0183f4813cbf4ece24109da629a08d4210da46f77e1d8b0bd5c19",
+      "pieces_root": "b7d426cf84dc67b69bce596b8be6a3271ecffbb1a5bfc7c930da2d6ffc59f8b6"
+    },
+    {
+      "path": "model-00002-of-00003.safetensors",
+      "size": 4999819336,
+      "sha256": "8c0e72f148366b6a3709e002a98706a33d31aec8515090c856c95b2044f92ae0",
+      "pieces_root": "27a33a3181404d1319fa727a34803b6f36c32ac5b9f326c2ffdd1edb7a424a01"
+    },
+    {
+      "path": "model-00003-of-00003.safetensors",
+      "size": 4546807800,
+      "sha256": "905dd405363e43d95779c1c1155a2dbfd36155914ae95dbd934e12e490cfb4ca",
+      "pieces_root": "db5c5a7f7522df24c2c30266cc1c41aa3fb474f79f4b9709c6642e240a18a6f6"
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size": 23950,
+      "sha256": "e489ba553b87cde188d921b1a8283c2e0b9d33d635b88147d96ff0fcd6250016",
+      "pieces_root": "96485ddd1fc9e0bcd1f8c9b0b08776f56c273faa8691092c2988501b71c1ba06"
+    },
+    {
+      "path": "params.json",
+      "size": 202,
+      "sha256": "8a64b8657de37af1f828eef1517dc186247938d66e7fea2c78c31d5b9071efe6",
+      "pieces_root": "8a64b8657de37af1f828eef1517dc186247938d66e7fea2c78c31d5b9071efe6"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size": 414,
+      "sha256": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0",
+      "pieces_root": "6fa06efa2785e450051989a6f8fb4416b10149ded485ddd3f127a40734f5cfd0"
+    },
+    {
+      "path": "tokenizer.json",
+      "size": 1961548,
+      "sha256": "e553af6fff7d7ad76e830608b218c5c0b0822998d5a1a96099a74cd3c1cb1a49",
+      "pieces_root": "fd1fa471a117ce0d7a8b18d3e13927ebfff054ce5238ca648cd9cef037fe3ccf"
+    },
+    {
+      "path": "tokenizer.model",
+      "size": 587404,
+      "sha256": "37f00374dea48658ee8f5d0f21895b9bc55cb0103939607c8185bfd1c6ca1f89",
+      "pieces_root": "11d6905d8b6de6d1724aa17eccb4bed81a0bd12b49a9f3cfdb40f08d4293bc44"
+    },
+    {
+      "path": "tokenizer.model.v3",
+      "size": 587404,
+      "sha256": "37f00374dea48658ee8f5d0f21895b9bc55cb0103939607c8185bfd1c6ca1f89",
+      "pieces_root": "11d6905d8b6de6d1724aa17eccb4bed81a0bd12b49a9f3cfdb40f08d4293bc44"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size": 140874,
+      "sha256": "0533dec9cfe319163801b6618d0f3ec9cfa126b6288e3df5deca6e32acb09cd2",
+      "pieces_root": "8f90b871bc70f506fae43a9f0f5e1c602537af3516107b48a715700bff12bb5c"
+    }
+  ],
+  "webseeds": [
+    "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/resolve/"
+  ],
+  "lineage": {
+    "base": null,
+    "derived_from": []
+  },
+  "source": {
+    "kind": "huggingface",
+    "repo": "mistralai/Mistral-7B-Instruct-v0.3",
+    "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+    "fetched": "2026-09-29T01:09:43Z"
+  },
+  "created": "2026-09-29T01:09:43Z",
+  "attestations": [
+    {
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:mistralai/Mistral-7B-Instruct-v0.3@c170c708c41dac9275d15a8fff4eca08d52bab71: the bytes the hub served for this commit on 2026-09-29",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "FYZucvUmD2mQh2CPfhjngFUP32MoEpOL/0T8HBG9j9LDNbA/UVgXhMh0Q+U6H5X53sX5tF0o4mrX6wYo4hfcDQ=="
+    }
+  ]
+}

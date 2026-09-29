@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "mistralai/Mistral-7B-Instruct-v0.3",
+  "reflog": "refs/mistralai/Mistral-7B-Instruct-v0.3.json",
+  "revisions": [
+    {
+      "name": "mistralai/Mistral-7B-Instruct-v0.3",
+      "root": "btmh:1220fb069ba568e93fa9a9fa9280bc02cd2dc10a8c3fe424ff1963eaf0b7f5b407b7",
+      "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+      "license": "apache-2.0",
+      "size": 28995471365,
+      "files": 15,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:mistralai/Mistral-7B-Instruct-v0.3@c170c708c41dac9275d15a8fff4eca08d52bab71: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/mistralai/Mistral-7B-Instruct-v0.3/c170c708c41dac9275d15a8fff4eca08d52bab71.json",
+      "torrent": "manifests/mistralai/Mistral-7B-Instruct-v0.3/c170c708c41dac9275d15a8fff4eca08d52bab71.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/mistralai/Mistral-7B-Instruct-v0.3.json"
+    }
+  ]
+}

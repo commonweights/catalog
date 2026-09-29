@@ -1,0 +1,21 @@
+{
+  "schema": "commonweights/reflog/v0",
+  "name": "moonshotai/Kimi-K2.6",
+  "records": [
+    {
+      "schema": "commonweights/ref/v0",
+      "name": "moonshotai/Kimi-K2.6",
+      "ref": "main",
+      "revision": "7eb5002f6aadc958aed6a9177b7ed26bb94011bb",
+      "root": "btmh:1220c10e64f13945552cab89ba1b54f4efc923a893d23f9470d162294fe072b99011",
+      "previous": null,
+      "seq": 1,
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:moonshotai/Kimi-K2.6 main = 7eb5002f6aadc958aed6a9177b7ed26bb94011bb as served by the hub at 2026-09-29T05:23:26Z",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "NZR4ID/pJpkg5ScZ/oWP+PAV9S2166KPfxA2ewEyBZbNx2Cf092pnPk+Zxz1Ck5lOFm/IOUk8SZseC9dDFQpBg=="
+    }
+  ]
+}

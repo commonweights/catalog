@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "Qwen/Qwen3-8B",
+  "reflog": "refs/Qwen/Qwen3-8B.json",
+  "revisions": [
+    {
+      "name": "Qwen/Qwen3-8B",
+      "root": "btmh:122083d2f9c58e2809ca424e9b31677a473c536c89f924ea7aa3f4e54f7504da5f84",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "license": "apache-2.0",
+      "size": 16397461266,
+      "files": 15,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:Qwen/Qwen3-8B@b968826d9c46dd6066d109eabc6255188de91218: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218.json",
+      "torrent": "manifests/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/Qwen/Qwen3-8B.json"
+    }
+  ]
+}

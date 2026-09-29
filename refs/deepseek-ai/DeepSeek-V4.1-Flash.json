@@ -1,0 +1,21 @@
+{
+  "schema": "commonweights/reflog/v0",
+  "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "records": [
+    {
+      "schema": "commonweights/ref/v0",
+      "name": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "ref": "main",
+      "revision": "dba1be0a40aa45a94ad051997016db3960a90277",
+      "root": "btmh:1220913fe91ffcc1f4abb9c046dfb4fb5f74731cdf587ad4ea3b0a3eee19000f1f4c",
+      "previous": null,
+      "seq": 1,
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:deepseek-ai/DeepSeek-V4.1-Flash main = dba1be0a40aa45a94ad051997016db3960a90277 as served by the hub at 2026-09-29T17:58:31Z",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "RxwZmy5mPOfrnz6XO7GenkrLidAOKhu597dq6MlGdiXRkFg2tUqRhfqlE9WSkAW2CEfTfnyD/W3zqpf6jXeACg=="
+    }
+  ]
+}

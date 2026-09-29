@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "deepseek-ai/DeepSeek-V4-Pro-0813",
+  "reflog": "refs/deepseek-ai/DeepSeek-V4-Pro-0813.json",
+  "revisions": [
+    {
+      "name": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "root": "btmh:12209c74a1e6b666b3ec5260c342ef4fc1001143341615b5f8022ea6f09eaf37d815",
+      "revision": "72e1d3230f6c080a530b0a1d46f8eb4602340597",
+      "license": "mit",
+      "size": 892762497859,
+      "files": 92,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:deepseek-ai/DeepSeek-V4-Pro-0813@72e1d3230f6c080a530b0a1d46f8eb4602340597: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/deepseek-ai/DeepSeek-V4-Pro-0813/72e1d3230f6c080a530b0a1d46f8eb4602340597.json",
+      "torrent": "manifests/deepseek-ai/DeepSeek-V4-Pro-0813/72e1d3230f6c080a530b0a1d46f8eb4602340597.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/deepseek-ai/DeepSeek-V4-Pro-0813.json"
+    }
+  ]
+}

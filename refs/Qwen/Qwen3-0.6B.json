@@ -1,0 +1,21 @@
+{
+  "schema": "commonweights/reflog/v0",
+  "name": "Qwen/Qwen3-0.6B",
+  "records": [
+    {
+      "schema": "commonweights/ref/v0",
+      "name": "Qwen/Qwen3-0.6B",
+      "ref": "main",
+      "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+      "root": "btmh:1220dee6aae97492e23eeea9c31831f89395e3710650ed6b143a15cf35ddd367f02a",
+      "previous": null,
+      "seq": 1,
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:Qwen/Qwen3-0.6B main = c1899de289a04d12100db370d81485cdf75e47ca as served by the hub at 2026-09-29T01:02:18Z",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "3BTQxo3aF9lmIiO6Or80Jq2WcjIWqebLs75uVnxdR5fDRRb6ca0Zc1Xl1BljU7PLhS56N2F3ZWINiBIGknm7DA=="
+    }
+  ]
+}

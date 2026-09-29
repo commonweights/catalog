@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "mistralai/Ministral-3-14B-Instruct-2512",
+  "reflog": "refs/mistralai/Ministral-3-14B-Instruct-2512.json",
+  "revisions": [
+    {
+      "name": "mistralai/Ministral-3-14B-Instruct-2512",
+      "root": "btmh:1220edd52f8d4e6763ab3b39f74f29c28ecc625329f46038592950820417b6db913c",
+      "revision": "29439f81c2be264d8d393273f99e7db9c0961120",
+      "license": "apache-2.0",
+      "size": 31487447241,
+      "files": 17,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:mistralai/Ministral-3-14B-Instruct-2512@29439f81c2be264d8d393273f99e7db9c0961120: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/mistralai/Ministral-3-14B-Instruct-2512/29439f81c2be264d8d393273f99e7db9c0961120.json",
+      "torrent": "manifests/mistralai/Ministral-3-14B-Instruct-2512/29439f81c2be264d8d393273f99e7db9c0961120.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/mistralai/Ministral-3-14B-Instruct-2512.json"
+    }
+  ]
+}

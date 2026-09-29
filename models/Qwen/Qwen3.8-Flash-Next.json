@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "Qwen/Qwen3.8-Flash-Next",
+  "reflog": "refs/Qwen/Qwen3.8-Flash-Next.json",
+  "revisions": [
+    {
+      "name": "Qwen/Qwen3.8-Flash-Next",
+      "root": "btmh:12200f1626e98ef2cd8d930ac9f85c6880d1e33f4d23cb00ee491015f5c6bc859a3a",
+      "revision": "de4b8e4d43b917e7706784d8bb445c9af86a3540",
+      "license": "other",
+      "size": 360023351514,
+      "files": 144,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:Qwen/Qwen3.8-Flash-Next@de4b8e4d43b917e7706784d8bb445c9af86a3540: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/Qwen/Qwen3.8-Flash-Next/de4b8e4d43b917e7706784d8bb445c9af86a3540.json",
+      "torrent": "manifests/Qwen/Qwen3.8-Flash-Next/de4b8e4d43b917e7706784d8bb445c9af86a3540.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/Qwen/Qwen3.8-Flash-Next.json"
+    }
+  ]
+}

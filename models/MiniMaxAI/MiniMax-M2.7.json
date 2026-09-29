@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "MiniMaxAI/MiniMax-M2.7",
+  "reflog": "refs/MiniMaxAI/MiniMax-M2.7.json",
+  "revisions": [
+    {
+      "name": "MiniMaxAI/MiniMax-M2.7",
+      "root": "btmh:1220cc4ec9092c065247f608fbe7adef7874fb5399a31a80529b5034563948ad46c1",
+      "revision": "d494266a4affc0d2995ba1fa35c8481cbd84294b",
+      "license": "other",
+      "size": 230169537355,
+      "files": 151,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:MiniMaxAI/MiniMax-M2.7@d494266a4affc0d2995ba1fa35c8481cbd84294b: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/MiniMaxAI/MiniMax-M2.7/d494266a4affc0d2995ba1fa35c8481cbd84294b.json",
+      "torrent": "manifests/MiniMaxAI/MiniMax-M2.7/d494266a4affc0d2995ba1fa35c8481cbd84294b.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/MiniMaxAI/MiniMax-M2.7.json"
+    }
+  ]
+}

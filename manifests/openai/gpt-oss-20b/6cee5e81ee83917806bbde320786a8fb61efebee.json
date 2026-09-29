@@ -1,0 +1,143 @@
+{
+  "schema": "commonweights/manifest/v0",
+  "name": "openai/gpt-oss-20b",
+  "revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+  "license": "apache-2.0",
+  "root": "btmh:1220a6c023c32af839425ea6bd5b2c691bc3e4553dbb4e35eb0decb856ad31eb8f88",
+  "size": 41301465516,
+  "piece_length": 16777216,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 1570,
+      "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+      "pieces_root": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "pieces_root": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "README.md",
+      "size": 7095,
+      "sha256": "03c2fcf292549176757b85c911e7dcf527aef3e4241d64b6caec94af3ecf3ac2",
+      "pieces_root": "03c2fcf292549176757b85c911e7dcf527aef3e4241d64b6caec94af3ecf3ac2"
+    },
+    {
+      "path": "USAGE_POLICY",
+      "size": 200,
+      "sha256": "d6387ef7985019c45db8d9801e6ac5fd9f98f02b9f1c56f8c5af80c3e8f385d0",
+      "pieces_root": "d6387ef7985019c45db8d9801e6ac5fd9f98f02b9f1c56f8c5af80c3e8f385d0"
+    },
+    {
+      "path": "chat_template.jinja",
+      "size": 16738,
+      "sha256": "a4c9919cbbd4acdd51ccffe22da049264b1b73e59055fa58811a99efbd7c8146",
+      "pieces_root": "0a043cbf3c0dd253e40958d5bc392251b1ea5abf91c10069e3ccefdce65c2d07"
+    },
+    {
+      "path": "config.json",
+      "size": 1806,
+      "sha256": "3a2a26ded679375b7928ddeca59764df7cea83220c1961035f6d6e232659e9ce",
+      "pieces_root": "3a2a26ded679375b7928ddeca59764df7cea83220c1961035f6d6e232659e9ce"
+    },
+    {
+      "path": "generation_config.json",
+      "size": 177,
+      "sha256": "f9970ada892d2d1f72e3ed0a6535ccebadd11897318794ca671d8c7014c957da",
+      "pieces_root": "f9970ada892d2d1f72e3ed0a6535ccebadd11897318794ca671d8c7014c957da"
+    },
+    {
+      "path": "metal/model.bin",
+      "size": 13750886400,
+      "sha256": "725b7f996b5a226d922f034a731aefc398652f670dcafc2efd78620509a0fef1",
+      "pieces_root": "6a57788f1283d683f1a95f22b93c26a6368300d1db043a7d06ec4e9a904aae29"
+    },
+    {
+      "path": "model-00000-of-00002.safetensors",
+      "size": 4792272488,
+      "sha256": "16d0f997dcfc4462089d536bffe51b4bcea2f872f5c430be09ef8ed392312427",
+      "pieces_root": "463f3ab73e7c6d56d6e5b56ab230581cc537f289c37328350403ddcd65aae1e1"
+    },
+    {
+      "path": "model-00001-of-00002.safetensors",
+      "size": 4798702184,
+      "sha256": "4fbe328ab445455d6f58dc73852b85873bd626986310abd91cd4d2ce3245eaea",
+      "pieces_root": "d9d3a97aac8291eb7c32f8c07689d0e7e79b5f773512fa618be6681d8c57ab8c"
+    },
+    {
+      "path": "model-00002-of-00002.safetensors",
+      "size": 4170342232,
+      "sha256": "a18106b209e9ab35c3406db4f6f12a927364a058b21e9d1373d682e20674b303",
+      "pieces_root": "e1324ef3a80dcd598affca547a2a502d7372c250b529249132b29f424b847749"
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size": 36355,
+      "sha256": "0e085b977c4c9942f85938828e8c989ed7d5cdabf852e4da6a67c116cd502cd1",
+      "pieces_root": "1625f2066234b30a63455bb9163cff79879beeb392efd33cec00eb84ebd0c1a9"
+    },
+    {
+      "path": "original/config.json",
+      "size": 376,
+      "sha256": "317522155fc243327ee341857d0c752d0094a0817e0e9aee2890d5ad8e009e04",
+      "pieces_root": "317522155fc243327ee341857d0c752d0094a0817e0e9aee2890d5ad8e009e04"
+    },
+    {
+      "path": "original/dtypes.json",
+      "size": 13082,
+      "sha256": "566c9e6aded8957f41f1589cabaf73e39f2d1fcda3351d63efdfb7e9e78d376b",
+      "pieces_root": "566c9e6aded8957f41f1589cabaf73e39f2d1fcda3351d63efdfb7e9e78d376b"
+    },
+    {
+      "path": "original/model.safetensors",
+      "size": 13761300984,
+      "sha256": "3340a61d1a0391e8c5b5d3463d18d4c48129a84bbc04a554c762c99020aa06ed",
+      "pieces_root": "b643c87fdabae401d9d85aee66a679b9cb3545db9510ea3481c65e467945d935"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size": 98,
+      "sha256": "dd5e191d20c12d2fee1da5bae14ca1db0f5f4215300af691f23cdee97120a293",
+      "pieces_root": "dd5e191d20c12d2fee1da5bae14ca1db0f5f4215300af691f23cdee97120a293"
+    },
+    {
+      "path": "tokenizer.json",
+      "size": 27868174,
+      "sha256": "0614fe83cadab421296e664e1f48f4261fa8fef6e03e63bb75c20f38e37d07d3",
+      "pieces_root": "c90636a7131155a8d23d9879faba57145e46388987f95a740455863a3ac001d1"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size": 4200,
+      "sha256": "9279e942392b742d633c7adbb89ebe002c98399db8926a7af5125c726f404070",
+      "pieces_root": "9279e942392b742d633c7adbb89ebe002c98399db8926a7af5125c726f404070"
+    }
+  ],
+  "webseeds": [
+    "https://huggingface.co/openai/gpt-oss-20b/resolve/"
+  ],
+  "lineage": {
+    "base": null,
+    "derived_from": []
+  },
+  "source": {
+    "kind": "huggingface",
+    "repo": "openai/gpt-oss-20b",
+    "revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+    "fetched": "2026-09-29T01:21:46Z"
+  },
+  "created": "2026-09-29T01:21:46Z",
+  "attestations": [
+    {
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:openai/gpt-oss-20b@6cee5e81ee83917806bbde320786a8fb61efebee: the bytes the hub served for this commit on 2026-09-29",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "tAq35/nTqv21Hu1wV4OwEd+eXplzaUGcAjMsG3Mx2Lh+erLr+n4lIuq/qJBXNW+Y/NTIUOG7jXf9TVKKl6VEBg=="
+    }
+  ]
+}

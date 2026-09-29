@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "zai-org/GLM-5.3",
+  "reflog": "refs/zai-org/GLM-5.3.json",
+  "revisions": [
+    {
+      "name": "zai-org/GLM-5.3",
+      "root": "btmh:1220eccc834825ed96b57fa3e6de909324573d2c8f3daed3e6528a8b2bc905069da1",
+      "revision": "aca966e4e02791568aa6a4ced368624b3d897f42",
+      "license": "other",
+      "size": 755663689206,
+      "files": 155,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:zai-org/GLM-5.3@aca966e4e02791568aa6a4ced368624b3d897f42: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/zai-org/GLM-5.3/aca966e4e02791568aa6a4ced368624b3d897f42.json",
+      "torrent": "manifests/zai-org/GLM-5.3/aca966e4e02791568aa6a4ced368624b3d897f42.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/zai-org/GLM-5.3.json"
+    }
+  ]
+}

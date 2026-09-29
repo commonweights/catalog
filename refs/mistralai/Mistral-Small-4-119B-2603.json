@@ -1,0 +1,21 @@
+{
+  "schema": "commonweights/reflog/v0",
+  "name": "mistralai/Mistral-Small-4-119B-2603",
+  "records": [
+    {
+      "schema": "commonweights/ref/v0",
+      "name": "mistralai/Mistral-Small-4-119B-2603",
+      "ref": "main",
+      "revision": "a11f36bebf709121056b1dbcc943d1c6afbe494d",
+      "root": "btmh:1220b9ef635d3ff62d7552bec742ed06d6d5a296c5a1339477086412c47310065596",
+      "previous": null,
+      "seq": 1,
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:mistralai/Mistral-Small-4-119B-2603 main = a11f36bebf709121056b1dbcc943d1c6afbe494d as served by the hub at 2026-09-29T16:31:22Z",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "8WgC2ghxq+xbnue0mvG2MMtuBl+Noamlp1ht4bTpB5NBzZDASlJuu0qDFxkkt3nfaRTwySbWTC6ezzawsUiHDg=="
+    }
+  ]
+}

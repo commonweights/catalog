@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "moonshotai/Kimi-K2.6",
+  "reflog": "refs/moonshotai/Kimi-K2.6.json",
+  "revisions": [
+    {
+      "name": "moonshotai/Kimi-K2.6",
+      "root": "btmh:1220c10e64f13945552cab89ba1b54f4efc923a893d23f9470d162294fe072b99011",
+      "revision": "7eb5002f6aadc958aed6a9177b7ed26bb94011bb",
+      "license": "other",
+      "size": 595204999341,
+      "files": 96,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:moonshotai/Kimi-K2.6@7eb5002f6aadc958aed6a9177b7ed26bb94011bb: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/moonshotai/Kimi-K2.6/7eb5002f6aadc958aed6a9177b7ed26bb94011bb.json",
+      "torrent": "manifests/moonshotai/Kimi-K2.6/7eb5002f6aadc958aed6a9177b7ed26bb94011bb.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/moonshotai/Kimi-K2.6.json"
+    }
+  ]
+}

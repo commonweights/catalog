@@ -1,0 +1,137 @@
+{
+  "schema": "commonweights/manifest/v0",
+  "name": "mistralai/Ministral-3-14B-Instruct-2512",
+  "revision": "29439f81c2be264d8d393273f99e7db9c0961120",
+  "license": "apache-2.0",
+  "root": "btmh:1220edd52f8d4e6763ab3b39f74f29c28ecc625329f46038592950820417b6db913c",
+  "size": 31487447241,
+  "piece_length": 16777216,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 1618,
+      "sha256": "1e11e8e6b9eb852a71eadd8fe191d4b9e329eb81308602dec19ab16da7e172b2",
+      "pieces_root": "1e11e8e6b9eb852a71eadd8fe191d4b9e329eb81308602dec19ab16da7e172b2"
+    },
+    {
+      "path": "README.md",
+      "size": 20322,
+      "sha256": "cc013914f873e709e3f2710e8d1fc8e5ed8ec4cc7a484e7af4445baa8450aeec",
+      "pieces_root": "30c3fe76a6278442b298ec4b7f38c157d5d954ee312ab53737fd722374c533ef"
+    },
+    {
+      "path": "SYSTEM_PROMPT.txt",
+      "size": 2362,
+      "sha256": "e27baafee59f722e2963ee100d39ae6bae644dee07b619c39aaccdf74e873e4d",
+      "pieces_root": "e27baafee59f722e2963ee100d39ae6bae644dee07b619c39aaccdf74e873e4d"
+    },
+    {
+      "path": "chat_template.jinja",
+      "size": 11913,
+      "sha256": "2f545122222db8bb43ca0ea0c49e9185320a8670f7d35575b0da0eb48b1e8970",
+      "pieces_root": "2f545122222db8bb43ca0ea0c49e9185320a8670f7d35575b0da0eb48b1e8970"
+    },
+    {
+      "path": "config.json",
+      "size": 1906,
+      "sha256": "fc51295bdc0b39c015c9c3ca5d649de183eae73a23b8cbab1a0e055be8d5fa04",
+      "pieces_root": "fc51295bdc0b39c015c9c3ca5d649de183eae73a23b8cbab1a0e055be8d5fa04"
+    },
+    {
+      "path": "consolidated.safetensors",
+      "size": 15726706472,
+      "sha256": "14c9b2cc4d7414616c1b20d9cd8ccc19075827f5d69f2e4f65f8829609e104ad",
+      "pieces_root": "244dbaa1e4fda4f0362431339a7c4978482e844f582a8a3af3f494a1aa8cce56"
+    },
+    {
+      "path": "generation_config.json",
+      "size": 131,
+      "sha256": "e0923390059f84a9180b00e5501778acc45ea9856cd7f2fd68208b360927c677",
+      "pieces_root": "e0923390059f84a9180b00e5501778acc45ea9856cd7f2fd68208b360927c677"
+    },
+    {
+      "path": "model-00001-of-00004.safetensors",
+      "size": 4980912374,
+      "sha256": "90f791800cc4d355f56cb1e8bf9554c9ddea62a67bdd12280951d3cbded2a32b",
+      "pieces_root": "5aa180e6c0020a995ff3eccf1a37a1d0dbea439ee582edb61bb93a3297ac28a9"
+    },
+    {
+      "path": "model-00002-of-00004.safetensors",
+      "size": 4996851408,
+      "sha256": "afa2da4d5c6bd0dff85cb25ac2716fcfc1aa5e8092cfe2e5068730feb6a1fb2d",
+      "pieces_root": "7ace8566f839db1c64daee8df7fe92b2baa412f07fc16e4d87c7ff4f88add7c8"
+    },
+    {
+      "path": "model-00003-of-00004.safetensors",
+      "size": 4993872954,
+      "sha256": "a80978eb1380e61a919344cb3ee65e972cc8c8137c092426a63e0954773d2c52",
+      "pieces_root": "4e7e6063577a24810b9c4e169599725323d12da01439de3a1d2e6e04068f3c5c"
+    },
+    {
+      "path": "model-00004-of-00004.safetensors",
+      "size": 755093832,
+      "sha256": "f8602ba567ff48c55212e20be61a32f9a625e68a91a2f8a156fb1a3529bb29d5",
+      "pieces_root": "09f4eef51b82bb22714355a6d45e51b3eab50fa3b427eff3dcf83af5d8d36f0a"
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size": 117404,
+      "sha256": "2b03cf0cf68dcb05010643e80470e52466db5c38e1361f9ca831e3d981108882",
+      "pieces_root": "6edd9763e76962336e3d4b8b50139fb99e1dbe22d6045f56a0b03d5c0b14df10"
+    },
+    {
+      "path": "params.json",
+      "size": 1188,
+      "sha256": "06aae2245cef31ee7cc762fbf458a2e26b2057b9baf33eae09f5c60e3dc97804",
+      "pieces_root": "06aae2245cef31ee7cc762fbf458a2e26b2057b9baf33eae09f5c60e3dc97804"
+    },
+    {
+      "path": "processor_config.json",
+      "size": 976,
+      "sha256": "ece2373c2ae391bce18785a1810543bc6173a1f28b6767cffab2c35dbea5f002",
+      "pieces_root": "ece2373c2ae391bce18785a1810543bc6173a1f28b6767cffab2c35dbea5f002"
+    },
+    {
+      "path": "tekken.json",
+      "size": 16753784,
+      "sha256": "600bb27946565481ecf51ba8aee252e49b9a68507866080ac9c30185bb312843",
+      "pieces_root": "dbabb13126b801cb36c678a8a8b69ddc82593e6c25ea8d5328ad715812988472"
+    },
+    {
+      "path": "tokenizer.json",
+      "size": 17077420,
+      "sha256": "99cf274236c60277fcfad861a5a1007518687ad06ba8938760f50b55ffa0b1ef",
+      "pieces_root": "8a341f2150a8ba86469e3a6f29e6aaccece5e20b409f384a80442b118467542f"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size": 21177,
+      "sha256": "4a05af595aa11c3436d3b68a616219ae99b303426f708a12b31bc9ce32530728",
+      "pieces_root": "b7876eb720dc3827f3aa3b2079ce27234ad0e81ee9dea9bd221416dd675f0c3c"
+    }
+  ],
+  "webseeds": [
+    "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512/resolve/"
+  ],
+  "lineage": {
+    "base": null,
+    "derived_from": []
+  },
+  "source": {
+    "kind": "huggingface",
+    "repo": "mistralai/Ministral-3-14B-Instruct-2512",
+    "revision": "29439f81c2be264d8d393273f99e7db9c0961120",
+    "fetched": "2026-09-29T01:14:21Z"
+  },
+  "created": "2026-09-29T01:14:21Z",
+  "attestations": [
+    {
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:mistralai/Ministral-3-14B-Instruct-2512@29439f81c2be264d8d393273f99e7db9c0961120: the bytes the hub served for this commit on 2026-09-29",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "qTIDgCeSKTQ06prOYjNwIfTCX3xitVrjMReU1xr3h/kCY4WswJgHHQfl77vcr1tyBaXWGNF9LXTdAvaefNSxCA=="
+    }
+  ]
+}

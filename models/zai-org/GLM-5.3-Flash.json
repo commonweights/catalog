@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "zai-org/GLM-5.3-Flash",
+  "reflog": "refs/zai-org/GLM-5.3-Flash.json",
+  "revisions": [
+    {
+      "name": "zai-org/GLM-5.3-Flash",
+      "root": "btmh:1220614cf78d55b401a0fd24f80222c19af00e8fa0ca9bf7a8dd430974f35d15f701",
+      "revision": "eb9eb208eb0d988989d07a6a12d0fdeb5f52574a",
+      "license": "mit",
+      "size": 328366173469,
+      "files": 73,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:zai-org/GLM-5.3-Flash@eb9eb208eb0d988989d07a6a12d0fdeb5f52574a: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/zai-org/GLM-5.3-Flash/eb9eb208eb0d988989d07a6a12d0fdeb5f52574a.json",
+      "torrent": "manifests/zai-org/GLM-5.3-Flash/eb9eb208eb0d988989d07a6a12d0fdeb5f52574a.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/zai-org/GLM-5.3-Flash.json"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "schema": "commonweights/manifest/v0",
+  "name": "mistralai/Mistral-Small-4-119B-2603",
+  "revision": "a11f36bebf709121056b1dbcc943d1c6afbe494d",
+  "license": "apache-2.0",
+  "root": "btmh:1220b9ef635d3ff62d7552bec742ed06d6d5a296c5a1339477086412c47310065596",
+  "size": 241889510745,
+  "piece_length": 16777216,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 1939,
+      "sha256": "b0104b06b0731c9805a1fa6f175b4b1ed601b389ef9f30548d7c2f2224e7d8e9",
+      "pieces_root": "b0104b06b0731c9805a1fa6f175b4b1ed601b389ef9f30548d7c2f2224e7d8e9"
+    },
+    {
+      "path": "README.md",
+      "size": 16483,
+      "sha256": "243f9d4f6cdb5644ca93d34d2e002822cb946803a6a7e3aed39b56d6ceeb1996",
+      "pieces_root": "f36ff863059f24912bad9e2dc39fff786e008fef1ef69aeaff509cc45e68286a"
+    },
+    {
+      "path": "SYSTEM_PROMPT.txt",
+      "size": 2372,
+      "sha256": "016a7dca45534be079c6bcf872530947aa511d10b80c5e7888a1cee5df124249",
+      "pieces_root": "016a7dca45534be079c6bcf872530947aa511d10b80c5e7888a1cee5df124249"
+    },
+    {
+      "path": "chat_template.jinja",
+      "size": 15168,
+      "sha256": "de56319deee1deb2b88cf576cf20bdc57a8789723f7ff75f9c54acd740d15ecb",
+      "pieces_root": "de56319deee1deb2b88cf576cf20bdc57a8789723f7ff75f9c54acd740d15ecb"
+    },
+    {
+      "path": "config.json",
+      "size": 2436,
+      "sha256": "113ea221dcf0dc7adc2af52ad84933a5830b663b679a4753a78a98f757de8737",
+      "pieces_root": "113ea221dcf0dc7adc2af52ad84933a5830b663b679a4753a78a98f757de8737"
+    },
+    {
+      "path": "consolidated-00001-of-00007.safetensors",
+      "size": 20000632534,
+      "sha256": "e493a53149d9fb05e48d5e814e4e40f97a605d32c0d579d15ebc60684af51ae6",
+      "pieces_root": "17c5ed2176d37afbb914dc3a0b99e546604fb3a776aa41dfb47ca74b99f10b58"
+    },
+    {
+      "path": "consolidated-00002-of-00007.safetensors",
+      "size": 19997737172,
+      "sha256": "82bf13d11290a0d3ee344e5a07224c623ae5f9c473fe774e24dfccb3506fe7b9",
+      "pieces_root": "077cb98085690ab694697c3895c98278116013d87bdf939d01803e76ab24fab9"
+    },
+    {
+      "path": "consolidated-00003-of-00007.safetensors",
+      "size": 19997736948,
+      "sha256": "1410d0d2223d665800f7d5b05d7d8adf2df4fb9c7e2e71f3b272f5a5bf07f1e6",
+      "pieces_root": "98af379359bb26245cb436f15ac8c0bfb4db7c41566c70359dbe2aa7d1e4ce0a"
+    },
+    {
+      "path": "consolidated-00004-of-00007.safetensors",
+      "size": 19997737108,
+      "sha256": "8725562ee8c0ee67056fe128220f201456abad6fa2039c61bc7421de8baa4dbd",
+      "pieces_root": "3b815d7a895c6879205b2037dc9a1c82a56df1915f7204bd7c3ab5082fa66ed7"
+    },
+    {
+      "path": "consolidated-00005-of-00007.safetensors",
+      "size": 19997738276,
+      "sha256": "ee67e9f47175ac89750790fcc5751a497ecedfb424779a66d9d5e7fcab468364",
+      "pieces_root": "a254775fe2851e580d048ba676a7f196ce1121e3d271ce3b77afa6983efad960"
+    },
+    {
+      "path": "consolidated-00006-of-00007.safetensors",
+      "size": 19861887138,
+      "sha256": "793e1be0042f616a50d73f083e47aadaf98ab65e9c909b8986a81e6611565428",
+      "pieces_root": "392779e4164c2752b42a94b25899554253e32d975240d84d0a880c9246817938"
+    },
+    {
+      "path": "consolidated-00007-of-00007.safetensors",
+      "size": 1073741920,
+      "sha256": "55ec7d746e71207f12b5303c65377b84612859bc78a0cceefe9ccfc60cc7e6de",
+      "pieces_root": "df581d07edd88d743bdf23dd6ce07d2772efca1df5d5c58e07fa59711827677e"
+    },
+    {
+      "path": "consolidated.safetensors.index.json",
+      "size": 3619748,
+      "sha256": "8d7eb9d015c1608e95c1e0d26641fcdf54bf25f46d96aac011b700352992af19",
+      "pieces_root": "54e0379d65914d9011a001b6caee1790d9507645f7a3eb7ef90cdccaa9e9fe1c"
+    },
+    {
+      "path": "generation_config.json",
+      "size": 132,
+      "sha256": "28133232e34985995465918c59046b361186c9a707cfc4de90571fac028cb2f5",
+      "pieces_root": "28133232e34985995465918c59046b361186c9a707cfc4de90571fac028cb2f5"
+    },
+    {
+      "path": "images/aime.png",
+      "size": 601172,
+      "sha256": "da1ee41ac7cebc824d1e732bef13853ac855dacf08b8c5811fd201f7c7cb7180",
+      "pieces_root": "134112fb9b11331cd14da4a30856bbe6ef866192a33bc900abc05a10e728a137"
+    },
+    {
+      "path": "images/image2.png",
+      "size": 152184,
+      "sha256": "abde364d45a8f25096dbe279b15db1acd1d4ea6f74fe858281266d5748ffd377",
+      "pieces_root": "be8e9bcd54d0453a5456569ed9991e9ab8e972eb266f0d96e2e039b5c1d41ea9"
+    },
+    {
+      "path": "images/image3.png",
+      "size": 220228,
+      "sha256": "b38c8a96b124ff831fa9e7270939123565b396485b48f3219f0387142661b735",
+      "pieces_root": "eb872bf3e4cf3ba445fd0aa56cfc2c1535f235a397e4cbd471c84952e1520e3a"
+    },
+    {
+      "path": "images/lcr.png",
+      "size": 586377,
+      "sha256": "bbbe6dd105653d399b6641ab2093502e4d0d9dddf485480e18b93c67c1bf1bba",
+      "pieces_root": "4f6a12244b5c3e5d5cbda447a6c2dc51d27a1de64968166dc0552e9121a314c4"
+    },
+    {
+      "path": "images/livecode.png",
+      "size": 571479,
+      "sha256": "f7e7c298ddfd1730e14aa79983bf94c6cfac332558561f083e85787629ecaea3",
+      "pieces_root": "3a8ef2fb7589c4b87a56b3e4aa85a1f77f6306ed27c77b8c444c5bdfda472e56"
+    },
+    {
+      "path": "model-00001-of-00003.safetensors",
+      "size": 49078433296,
+      "sha256": "811a33f74a5160806bf59a5134f015a86386eea49d1b8d2f51c6509382cf5f03",
+      "pieces_root": "1c65f8b8b3bb1eab79b80cea3d2fcc09ab2642173ac712d5f33ae2cf7bf9452e"
+    },
+    {
+      "path": "model-00002-of-00003.safetensors",
+      "size": 49132710896,
+      "sha256": "50f010b6318591e49c41dda94926dfaa436f17219ec79f27289a72dd93e1effa",
+      "pieces_root": "dffd703268fb5eab2f9da09ff3e511aea86f6907b1ca44ace39ce8b556baacd8"
+    },
+    {
+      "path": "model-00003-of-00003.safetensors",
+      "size": 22711829744,
+      "sha256": "166755c02c0c0682302d460c0eadcf138758a022d9a578c7eb74f3251e770999",
+      "pieces_root": "a8e654fdc33a00eca241a9859a328f731b5fe93fe517f0050dea51e57f4bc2ee"
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size": 159870,
+      "sha256": "30f9eae8bd2738cad0cd3bd4f7db8e3aac177f2b644bba0ff35a46a15efc8f39",
+      "pieces_root": "6ff693e14d508b44a37d121bdf2f393f6e1720b31e0b6729c329e0b315469ea4"
+    },
+    {
+      "path": "params.json",
+      "size": 1510,
+      "sha256": "d18e00ba8bd5722364cb629ea541c56b3b49ff0780f35a203b04c87291fbd535",
+      "pieces_root": "d18e00ba8bd5722364cb629ea541c56b3b49ff0780f35a203b04c87291fbd535"
+    },
+    {
+      "path": "processor_config.json",
+      "size": 701,
+      "sha256": "75fd59fef06dfa512cda2a8db466816f65dce0577d767088e1cac60335051da6",
+      "pieces_root": "75fd59fef06dfa512cda2a8db466816f65dce0577d767088e1cac60335051da6"
+    },
+    {
+      "path": "tekken.json",
+      "size": 16275354,
+      "sha256": "b1272b956bd6edd2d2c674c76896c7661308c9e723997b0afb55ecb429cb5dc7",
+      "pieces_root": "cdbb5942ef6b87dbc93a1a0ff595b4ace71182332437ad7fc6f84a837977788b"
+    },
+    {
+      "path": "tokenizer.json",
+      "size": 17077420,
+      "sha256": "2ba5b3330fd84d5376fcca797cfb3b42eee6241ce23e3271e6fb2a115a8751bd",
+      "pieces_root": "7087562a5af68b160b41fae337750a02d2515b123ef18f8b012689b2f18a165d"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size": 21140,
+      "sha256": "3652d4cf7e8bd9f8d4cd9fd8df4ae7f47647a9846dadc6e45b1c09d8a88fc7ec",
+      "pieces_root": "1dd5eee179986573ec081606ed342ce76a98a745d6077bc2bd0bc49e201e0b56"
+    }
+  ],
+  "webseeds": [
+    "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603/resolve/"
+  ],
+  "lineage": {
+    "base": null,
+    "derived_from": []
+  },
+  "source": {
+    "kind": "huggingface",
+    "repo": "mistralai/Mistral-Small-4-119B-2603",
+    "revision": "a11f36bebf709121056b1dbcc943d1c6afbe494d",
+    "fetched": "2026-09-29T16:31:22Z"
+  },
+  "created": "2026-09-29T16:31:22Z",
+  "attestations": [
+    {
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:mistralai/Mistral-Small-4-119B-2603@a11f36bebf709121056b1dbcc943d1c6afbe494d: the bytes the hub served for this commit on 2026-09-29",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "8r0UocaA3rpHLU6/a/PygiFyq1Rnx594cYVyiMbuHYwGMwVbABKxQJkrwfu4tfyqL8G+81vGR0fQgjU8UOf7Cg=="
+    }
+  ]
+}

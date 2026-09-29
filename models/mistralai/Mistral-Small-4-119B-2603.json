@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "mistralai/Mistral-Small-4-119B-2603",
+  "reflog": "refs/mistralai/Mistral-Small-4-119B-2603.json",
+  "revisions": [
+    {
+      "name": "mistralai/Mistral-Small-4-119B-2603",
+      "root": "btmh:1220b9ef635d3ff62d7552bec742ed06d6d5a296c5a1339477086412c47310065596",
+      "revision": "a11f36bebf709121056b1dbcc943d1c6afbe494d",
+      "license": "apache-2.0",
+      "size": 241889510745,
+      "files": 28,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:mistralai/Mistral-Small-4-119B-2603@a11f36bebf709121056b1dbcc943d1c6afbe494d: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/mistralai/Mistral-Small-4-119B-2603/a11f36bebf709121056b1dbcc943d1c6afbe494d.json",
+      "torrent": "manifests/mistralai/Mistral-Small-4-119B-2603/a11f36bebf709121056b1dbcc943d1c6afbe494d.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/mistralai/Mistral-Small-4-119B-2603.json"
+    }
+  ]
+}

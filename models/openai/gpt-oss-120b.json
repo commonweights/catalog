@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "openai/gpt-oss-120b",
+  "reflog": "refs/openai/gpt-oss-120b.json",
+  "revisions": [
+    {
+      "name": "openai/gpt-oss-120b",
+      "root": "btmh:122045a561e6b0c945f13950fbc8188809d55b43576698bdc914f2b81483ac1f929e",
+      "revision": "b5c939de8f754692c1647ca79fbf85e8c1e70f8a",
+      "license": "apache-2.0",
+      "size": 195764040609,
+      "files": 37,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:openai/gpt-oss-120b@b5c939de8f754692c1647ca79fbf85e8c1e70f8a: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/openai/gpt-oss-120b/b5c939de8f754692c1647ca79fbf85e8c1e70f8a.json",
+      "torrent": "manifests/openai/gpt-oss-120b/b5c939de8f754692c1647ca79fbf85e8c1e70f8a.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/openai/gpt-oss-120b.json"
+    }
+  ]
+}

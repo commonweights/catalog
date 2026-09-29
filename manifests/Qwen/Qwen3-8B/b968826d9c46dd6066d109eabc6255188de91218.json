@@ -1,0 +1,125 @@
+{
+  "schema": "commonweights/manifest/v0",
+  "name": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "license": "apache-2.0",
+  "root": "btmh:122083d2f9c58e2809ca424e9b31677a473c536c89f924ea7aa3f4e54f7504da5f84",
+  "size": 16397461266,
+  "piece_length": 16777216,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 1570,
+      "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+      "pieces_root": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+    },
+    {
+      "path": "LICENSE",
+      "size": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "pieces_root": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+    },
+    {
+      "path": "README.md",
+      "size": 16660,
+      "sha256": "0f36caaff9c2516411a7738db384606263ba653c1e63e61d72f511606164d5a6",
+      "pieces_root": "d0e959178ef8be03331e425eb4a4fceb90462ca8bc8fe1229b85807842d15ad1"
+    },
+    {
+      "path": "config.json",
+      "size": 728,
+      "sha256": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30",
+      "pieces_root": "f7c4eadfbbf522470667b797a3c89be2524832d2d599797248dc304fff447c30"
+    },
+    {
+      "path": "generation_config.json",
+      "size": 239,
+      "sha256": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2",
+      "pieces_root": "2325da0f15bb848e018c5ae071b7943332e9f871d6b60e2ed22ca97d4cb993d2"
+    },
+    {
+      "path": "merges.txt",
+      "size": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "pieces_root": "45381a086043ee0aa8cca575bc98cc12c1decd8bef1e6744c4bd2861e7d612b0"
+    },
+    {
+      "path": "model-00001-of-00005.safetensors",
+      "size": 3996250744,
+      "sha256": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+      "pieces_root": "f359699a93e50b66ed6f5b3255890a7901083e6dce5c4192d3e5762f0f3b0f18"
+    },
+    {
+      "path": "model-00002-of-00005.safetensors",
+      "size": 3993160032,
+      "sha256": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+      "pieces_root": "26c02a7dd74053120b53436f3bcbf93555c3962d8fe7217ddeea77e5011e3bef"
+    },
+    {
+      "path": "model-00003-of-00005.safetensors",
+      "size": 3959604768,
+      "sha256": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+      "pieces_root": "e74b42ddf1ee200f847864cd0a53688cd05ef4d29e05b2865cd3321ede1e0ffc"
+    },
+    {
+      "path": "model-00004-of-00005.safetensors",
+      "size": 3187841392,
+      "sha256": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+      "pieces_root": "55d26c7356e6dc82b7311c8d2b4c01b691f3175b76b474f29dd68047ef021a52"
+    },
+    {
+      "path": "model-00005-of-00005.safetensors",
+      "size": 1244659840,
+      "sha256": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+      "pieces_root": "a6c5ac6890fddeabaa26516151d430796b2f64ee1929f90498d9708bad5f92a6"
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "size": 32878,
+      "sha256": "f9fdbcb91c23971c13ec5d5f2573d2349e8f61f2f049371ec699281748fdb1bc",
+      "pieces_root": "fad90cfb47a16a80ad2f8765274d37bf8e34387ee689fe54fb9db7e43a0e3b46"
+    },
+    {
+      "path": "tokenizer.json",
+      "size": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "pieces_root": "34a9f64ac43f1ca06b13d7aa60e48bb27d108a12f56b77766d79797c4fe76907"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size": 9732,
+      "sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+      "pieces_root": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101"
+    },
+    {
+      "path": "vocab.json",
+      "size": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "pieces_root": "802efa71898c48ac374d63113632584cb62978440b3f96112cbb6d57ab633e96"
+    }
+  ],
+  "webseeds": [
+    "https://huggingface.co/Qwen/Qwen3-8B/resolve/"
+  ],
+  "lineage": {
+    "base": null,
+    "derived_from": []
+  },
+  "source": {
+    "kind": "huggingface",
+    "repo": "Qwen/Qwen3-8B",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "fetched": "2026-09-29T01:04:25Z"
+  },
+  "created": "2026-09-29T01:04:25Z",
+  "attestations": [
+    {
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:Qwen/Qwen3-8B@b968826d9c46dd6066d109eabc6255188de91218: the bytes the hub served for this commit on 2026-09-29",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "yNBkeXIDJ1DSa8kpEQwM2BA8rdcTVjGrL9horIE653+BhOeHdEm/hN0F2TKLD5f6yIClTYb43K4Ki7ApUdpZBw=="
+    }
+  ]
+}

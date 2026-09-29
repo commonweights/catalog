@@ -1,0 +1,21 @@
+{
+  "schema": "commonweights/reflog/v0",
+  "name": "openai/gpt-oss-20b",
+  "records": [
+    {
+      "schema": "commonweights/ref/v0",
+      "name": "openai/gpt-oss-20b",
+      "ref": "main",
+      "revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+      "root": "btmh:1220a6c023c32af839425ea6bd5b2c691bc3e4553dbb4e35eb0decb856ad31eb8f88",
+      "previous": null,
+      "seq": 1,
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:openai/gpt-oss-20b main = 6cee5e81ee83917806bbde320786a8fb61efebee as served by the hub at 2026-09-29T01:21:46Z",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "vbyI8FCKvIfEJim+dp0z8xNI58VYKcb/UzbmtZLwAbnx/a5JUAqEp4GcsAa9UhLMnKCU0R6MrXNEtTQpkHMNCg=="
+    }
+  ]
+}

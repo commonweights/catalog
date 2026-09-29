@@ -1,0 +1,21 @@
+{
+  "schema": "commonweights/reflog/v0",
+  "name": "Qwen/Qwen3.6-35B-A3B-FP8",
+  "records": [
+    {
+      "schema": "commonweights/ref/v0",
+      "name": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "ref": "main",
+      "revision": "95a723d08a9490559dae23d0cff1d9466213d989",
+      "root": "btmh:1220c51ae2725ba78997aa4999241ec62ef82987d797313f47a3e4b2f230c75f1b3d",
+      "previous": null,
+      "seq": 1,
+      "kind": "index",
+      "issuer": "commonweights",
+      "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+      "claim": "hf:Qwen/Qwen3.6-35B-A3B-FP8 main = 95a723d08a9490559dae23d0cff1d9466213d989 as served by the hub at 2026-09-29T01:18:11Z",
+      "created": "2026-09-29T23:18:53Z",
+      "sig": "qBYwSoBb9WNp/ZMRCZ99lh386B6QMr9Z6bCMurXq5BozOX/iJ9hS0pjTRO7Q1gGzP7odQybhbqvrCXjCnXNIBA=="
+    }
+  ]
+}

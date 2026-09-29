@@ -1,0 +1,29 @@
+{
+  "schema": "commonweights/model/v1",
+  "name": "mistralai/Mistral-Large-3-675B-Instruct-2512",
+  "reflog": "refs/mistralai/Mistral-Large-3-675B-Instruct-2512.json",
+  "revisions": [
+    {
+      "name": "mistralai/Mistral-Large-3-675B-Instruct-2512",
+      "root": "btmh:1220081e6a2e7121c942f08ed6acda861958d6b92f9ddd7b92354d5005cd93eb159f",
+      "revision": "383ffea2c7d60dfd44ca960e8e691709d4fdb9cd",
+      "license": "apache-2.0",
+      "size": 681542908857,
+      "files": 283,
+      "attestations": [
+        {
+          "kind": "index",
+          "issuer": "commonweights",
+          "key": "ed25519:1944f265c1654ff91549e71bc014686e5f283b9eab48b863a56a7969a7c52112",
+          "claim": "hf:mistralai/Mistral-Large-3-675B-Instruct-2512@383ffea2c7d60dfd44ca960e8e691709d4fdb9cd: the bytes the hub served for this commit on 2026-09-29"
+        }
+      ],
+      "manifest": "manifests/mistralai/Mistral-Large-3-675B-Instruct-2512/383ffea2c7d60dfd44ca960e8e691709d4fdb9cd.json",
+      "torrent": "manifests/mistralai/Mistral-Large-3-675B-Instruct-2512/383ffea2c7d60dfd44ca960e8e691709d4fdb9cd.torrent",
+      "refs": [
+        "main"
+      ],
+      "reflog": "refs/mistralai/Mistral-Large-3-675B-Instruct-2512.json"
+    }
+  ]
+}
