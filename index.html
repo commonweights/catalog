@@ -16,7 +16,7 @@
   .name { font-weight:600; font-size:16px; } .meta { color:var(--muted); font-size:13px; margin-top:2px; word-break:break-all; }
   .badges { margin-top:8px; display:flex; flex-wrap:wrap; gap:6px; }
   .b { font-size:12px; padding:2px 8px; border-radius:999px; border:1px solid var(--line); color:var(--muted); }
-  .b.publisher { border-color:var(--ok); color:var(--ok); } .b.mirror { border-color:var(--warn); color:var(--warn); } .b.scan { border-color:var(--accent); color:var(--accent); }
+  .b.publisher, .b.index { border-color:var(--ok); color:var(--ok); } .b.mirror { border-color:var(--warn); color:var(--warn); } .b.scan { border-color:var(--accent); color:var(--accent); }
   .b.seed { border-color:var(--ok); color:var(--ok); } .b.noseed { border-color:var(--bad); color:var(--bad); }
   .b.ref { border-color:var(--accent); color:var(--accent); font-weight:600; } .card.old { opacity:.75; }
   a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
@@ -39,11 +39,13 @@
   let idx;
   try { idx = await (await fetch('index.json', {cache:'no-store'})).json(); }
   catch (e) { document.getElementById('node').textContent = 'Could not load index.json: ' + e; return; }
-  const node = idx.node ? `${esc(idx.node.name)} · commonweights ${esc(idx.node.version)}` : 'static catalog';
+  const live = !!idx.node, denylists = idx.denylists || [];
+  for (const m of idx.models) { m.seeds = m.seeds || []; m.attestations = m.attestations || []; }
+  const node = live ? `${esc(idx.node.name)} · commonweights ${esc(idx.node.version)}` : 'static catalog';
   const names = new Set(idx.models.map(m => m.name)).size;
   // Current revisions (those a ref points to) first, then older snapshots of the same model.
   idx.models.sort((a, b) => a.name.localeCompare(b.name) || (b.refs||[]).length - (a.refs||[]).length);
-  document.getElementById('node').innerHTML = `${node} · ${names} model${names===1?'':'s'}, ${idx.models.length} revision${idx.models.length===1?'':'s'} · generated ${esc(idx.generated)}` + (idx.denylists.length ? ` · ${idx.denylists.length} denylist${idx.denylists.length===1?'':'s'} published` : '');
+  document.getElementById('node').innerHTML = `${node} · ${names} model${names===1?'':'s'}, ${idx.models.length} revision${idx.models.length===1?'':'s'}` + (idx.generated ? ` · generated ${esc(idx.generated)}` : '') + (denylists.length ? ` · ${denylists.length} denylist${denylists.length===1?'':'s'} published` : '');
   const list = document.getElementById('list');
   const render = q => {
     q = q.trim().toLowerCase();
@@ -51,7 +53,8 @@
     if (!rows.length) { list.innerHTML = '<div class="empty">No models match.</div>'; return; }
     list.innerHTML = rows.map(m => {
       const att = m.attestations.map(a => `<span class="b ${esc(a.kind)}" title="${esc(a.claim)} · ${esc(a.key)}">${esc(a.kind)}: ${esc(a.issuer)}</span>`).join('');
-      const seed = m.seeds.length ? `<span class="b seed">${m.seeds.length} seed${m.seeds.length===1?'':'s'}</span>` : '<span class="b noseed">no seeds listed</span>';
+      // A static catalog lists no seeds: peers are found through the DHT, so saying "none" would mislead.
+      const seed = m.seeds.length ? `<span class="b seed">${m.seeds.length} seed${m.seeds.length===1?'':'s'}</span>` : live ? '<span class="b noseed">no seeds listed</span>' : '';
       const magnet = `magnet:?xt=urn:${m.root}&dn=${encodeURIComponent(m.name)}` + m.seeds.map(s=>'&ws='+encodeURIComponent(s)).join('');
       const refs = (m.refs||[]).map(r => `<span class="b ref">${esc(r)}</span>`).join('');
       const pull = (m.refs||[]).includes('main') ? `cw pull ${esc(m.name)}` : `cw pull ${esc(m.name)} --root ${esc(m.root)}`;

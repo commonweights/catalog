@@ -1,6 +1,5 @@
 {
   "schema": "commonweights/catalog/v1",
-  "node": null,
   "models": [
     {
       "name": "MiniMaxAI/MiniMax-H3",
