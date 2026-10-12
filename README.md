@@ -9,16 +9,18 @@ checked them, and signed refs such as `main`.
 
 ## Use it
 
-Clone it and point `cw` at the folder:
+```
+cw catalog add https://catalog.commonweights.org
+cw pull Qwen/Qwen3-8B
+```
+
+The site is this repository as it is, served by GitHub Pages. To keep a copy of your own, or to use the
+catalog without the site, clone it and point `cw` at the folder; `git pull` brings new entries:
 
 ```
 git clone https://github.com/commonweights/catalog
 cw catalog add ./catalog
-cw pull Qwen/Qwen3-8B
 ```
-
-`git pull` brings new entries. The folder is also a static site: served as it is, `cw catalog add
-<its URL>` works the same way.
 
 ## Layout
 
